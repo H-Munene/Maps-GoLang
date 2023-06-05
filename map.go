@@ -14,6 +14,7 @@ var tenant_not_paid map[string]string
 func main() {
 
     //declare size and capacity of tenants_paid and tenants
+
 	tenants_paid = make(map[string]string, 14)
     tenants = make(map[string]string, 14)
     tenant_not_paid = make(map[string]string, 14)
@@ -28,6 +29,8 @@ func main() {
     fmt.Println(isPresent(&tenants_paid,"0741405735"))
 
 }
+
+//methods 
 
 //copies tenants to tenant_not_paid
 func copyCollections(tenant map[string]string) {
