@@ -24,9 +24,9 @@ func main() {
     //copies tenants to tenant_not_paid
     addTenant(&tenants, "Munene", "0712345678")
     
-    hasPaid("Munene", "0741405735")
+    hasPaid("Munene", "0712345678")
     
-    fmt.Println(isPresent(&tenants_paid,"0741405735"))
+    fmt.Println(isPresent(&tenants_paid,"0712345678"))
 
 }
 
