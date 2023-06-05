@@ -15,7 +15,7 @@ func main() {
 
     //declare size and capacity of tenants_paid and tenants
 
-	tenants_paid = make(map[string]string, 14)
+    tenants_paid = make(map[string]string, 14)
     tenants = make(map[string]string, 14)
     tenant_not_paid = make(map[string]string, 14)
 
